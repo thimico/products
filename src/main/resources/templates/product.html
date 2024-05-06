@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Product Management</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Product List</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Available</th>
+        <th>SKU</th>
+        <th>Manufacturer</th>
+        <th>Stock Quantity</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="product : ${listProducts}">
+        <td th:text="${product.name}"></td>
+        <td th:text="${product.description}"></td>
+        <td th:text="${product.price}"></td>
+        <td th:text="${product.category}"></td>
+        <td th:text="${product.available}"></td>
+        <td th:text="${product.sku}"></td>
+        <td th:text="${product.manufacturer}"></td>
+        <td th:text="${product.stockQuantity}"></td>
+        <td>
+            <a th:href="@{'/showFormForUpdate/' + ${product.id}}">Edit</a>
+            <a th:href="@{'/deleteProduct/' + ${product.id}}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

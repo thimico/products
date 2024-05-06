@@ -1,0 +1,21 @@
+
+v
+Fsrc/main/java/com/example/productapp/controller/ProductController.java,8/b/8b0776659aa2caec0577a313c81635c4cfb74e07
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+g
+7src/main/java/com/example/productapp/model/Product.java,c/8/c89e1895ba4e4848ffb6eebcbbb454bc0eecea23
+h
+8src/main/java/com/example/productapp/model/Category.java,1/9/19a7db06dd418672110aa22e8779c308568ae1ca
+w
+Gsrc/main/java/com/example/productapp/repository/CategoryRepository.java,0/e/0e06bb05292770827a3cea3b84f48fb2c64b1380
+v
+Fsrc/main/java/com/example/productapp/repository/ProductRepository.java,2/2/22c9f7bcb0235bb0ea4a5ea65e82e6d46c48389a
+q
+Asrc/main/java/com/example/productapp/security/SecurityConfig.java,6/a/6a67b4fb22b7c85511be56396bd6b49ac369b629
+p
+@src/main/java/com/example/productapp/service/ProductService.java,d/0/d0ef663ffa4e529d88f7e34f25697dd6cc233014
+e
+5src/main/java/com/example/productapp/Application.java,e/b/ebd530aa260d0a1e9a973c05117ba77d3903a424
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
